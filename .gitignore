@@ -1,0 +1,41 @@
+# 🛠 Archivos compilados de .NET
+bin/
+obj/
+out/
+*.exe
+*.dll
+*.pdb
+*.app
+
+# 🏗️ Archivos de compilación y paquetes NuGet
+*.nupkg
+*.snupkg
+packages/
+project.lock.json
+project.assets.json
+
+# 🖥️ Configuración del entorno de desarrollo
+.vs/
+.vscode/
+.idea/
+*.suo
+*.user
+*.csproj.user
+*.dbmdl
+
+# 🛑 Archivos de Base de Datos de EF Core
+Migrations/
+*.mdf
+*.ldf
+*.sqlite
+*.db
+
+# 🔑 Configuraciones sensibles (RECOMENDADO: Ignorar `appsettings.json`)
+# appsettings.json
+# appsettings.Development.json
+
+# 📦 Dependencias de Node.js (si usas Tailwind o Bootstrap con npm)
+node_modules/
+
+# 🚀 Publicaciones y despliegues
+wwwroot/
